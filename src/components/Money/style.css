@@ -1,0 +1,86 @@
+.money_block {
+  width: 240px;
+  height: 39px;
+  background: #ffffff;
+  border: 1px solid #d0d0d8;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  border-left: none;
+  border-right: none;
+  color: #1c1c21;
+  position: relative;
+}
+
+.total {
+  color: green;
+}
+
+.correntStatus {
+  border-color: #ff8b37;
+}
+.closeQuestion {
+  background: #ffffff;
+  position: relative;
+  border-color: #d0d0d8;
+  box-sizing: border-box;
+  color: #d0d0d8;
+}
+.money_block {
+  position: relative;
+}
+.money_block:after {
+  content: "";
+  display: block;
+  width: 200px;
+  border: 1px solid;
+  border-color: inherit;
+  position: absolute;
+  top: 17.3px;
+  right: -220px;
+}
+.money_block:before {
+  content: "";
+  display: block;
+  width: 200px;
+  border: 1px solid;
+  border-color: inherit;
+  position: absolute;
+  top: 17.1px;
+  left: -220px;
+}
+.result {
+  overflow: hidden;
+}
+.money_before {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  transform: rotate(45deg);
+  left: -15px;
+  bottom: 3.5px;
+  border-color: inherit;
+  background-color: inherit;
+  border-top: transparent;
+  border-right: transparent;
+  border-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.money_after {
+  position: absolute;
+  background-color: inherit;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  transform: rotate(-135deg);
+  right: -15px;
+  bottom: 3.5px;
+  border-color: inherit;
+  border-top: transparent;
+  border-right: transparent;
+  border-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

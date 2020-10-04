@@ -1,0 +1,38 @@
+.game_over_img {
+  margin-top: 245px;
+  margin-left: 80px;
+}
+.game_over_title {
+  margin-top: 316px;
+}
+
+.game_over_title {
+  display: flex;
+  flex-direction: column;
+}
+.game_over_title h3 {
+  color: #1c1c21;
+  opacity: 0.5;
+  font-size: 32px;
+}
+
+.game_over_title h2 {
+  font-size: 54px;
+}
+
+@media screen and (max-width: 1000px) {
+  .game_row {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    justify-content: center;
+  }
+  .img {
+    margin: 0;
+    padding-top: 80px;
+  }
+  .game_over_title {
+    margin-top: 0px;
+    padding-bottom: 48px;
+  }
+}

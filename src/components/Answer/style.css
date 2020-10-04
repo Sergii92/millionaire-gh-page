@@ -1,0 +1,126 @@
+.answer_block {
+  width: 390px;
+  height: 71px;
+  background: #ffffff;
+  border: 1px solid #d0d0d8;
+  box-sizing: border-box;
+  border-left: none;
+  border-right: none;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 20px;
+  line-height: 71px;
+  margin-bottom: 32px;
+  color: black;
+  position: relative;
+  outline: none;
+  text-align: center;
+  z-index: 1;
+}
+.answer {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.answer_block {
+  position: relative;
+}
+.answer_block:hover {
+  border: 1px solid #ff8b37;
+}
+.option {
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  color: #ff8b37;
+}
+.value {
+  position: absolute;
+  left: 40px;
+}
+.answer_block:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 30px;
+  border: 1px solid;
+  border-color: inherit;
+  top: 33px;
+  left: -50px;
+}
+.answer_block:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 13px;
+  border: 1px solid;
+  border-color: inherit;
+  top: 33px;
+  right: -50px;
+}
+
+.hoverClass {
+  border: 1px solid #ff8b37;
+  cursor: pointer;
+}
+
+.selected {
+  background: #fff3eb;
+  border: 1px solid #ff8b37;
+}
+.correct {
+  background: #e6faea;
+  border: 1px solid #47d867;
+}
+
+.wrong {
+  background: #fdeeed;
+  border: 1px solid #ec6259;
+}
+
+.before_block {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 52px;
+  height: 52px;
+  border: 1px solid;
+  transform: rotate(45deg);
+  left: -27px;
+  bottom: 9px;
+  border-top: none;
+  border-right: none;
+  border-color: inherit;
+  background-color: inherit;
+  border-radius: 5px;
+}
+.after_block {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 52px;
+  height: 52px;
+  border: 1px solid;
+  transform: rotate(45deg);
+  right: -27px;
+  top: 9px;
+  border-color: inherit;
+  border-bottom: transparent;
+  border-left: transparent;
+  border-radius: 5px;
+  border-color: inherit;
+  background-color: inherit;
+}
+@media (max-width: 1250px) {
+  .answer {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1251px) {
+  .answer {
+    width: 982px;
+  }
+}
