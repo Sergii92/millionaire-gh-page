@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/millionaire-gh-page/static/css/main.8d372884.chunk.css",
+    "main.js": "/millionaire-gh-page/static/js/main.454af3bb.chunk.js",
+    "main.js.map": "/millionaire-gh-page/static/js/main.454af3bb.chunk.js.map",
+    "runtime-main.js": "/millionaire-gh-page/static/js/runtime-main.ae73494f.js",
+    "runtime-main.js.map": "/millionaire-gh-page/static/js/runtime-main.ae73494f.js.map",
+    "static/js/2.81e183ff.chunk.js": "/millionaire-gh-page/static/js/2.81e183ff.chunk.js",
+    "static/js/2.81e183ff.chunk.js.map": "/millionaire-gh-page/static/js/2.81e183ff.chunk.js.map",
+    "index.html": "/millionaire-gh-page/index.html",
+    "precache-manifest.b757cbb410906a27577f93f0725762a9.js": "/millionaire-gh-page/precache-manifest.b757cbb410906a27577f93f0725762a9.js",
+    "service-worker.js": "/millionaire-gh-page/service-worker.js",
+    "static/css/main.8d372884.chunk.css.map": "/millionaire-gh-page/static/css/main.8d372884.chunk.css.map",
+    "static/js/2.81e183ff.chunk.js.LICENSE.txt": "/millionaire-gh-page/static/js/2.81e183ff.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/millionaire-gh-page/static/media/Rectangle.c7cf242a.png",
+    "static/media/hand1.png": "/millionaire-gh-page/static/media/hand1.f8c75481.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae73494f.js",
+    "static/js/2.81e183ff.chunk.js",
+    "static/css/main.8d372884.chunk.css",
+    "static/js/main.454af3bb.chunk.js"
+  ]
+}
